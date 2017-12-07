@@ -47,7 +47,6 @@ while pKey!='#':    #判断是否到最后一个点
     pKey=sh.cell_value(pointer,0)   #点号
     pVal=[sh.cell_value(pointer,1),sh.cell_value(pointer,2)]    #第2个值和第3个值
 
-print('t') 
 
 path=os.sys.path[0]
 w=xlwt.Workbook()
